@@ -1,0 +1,101 @@
+.hover {
+    width: 110px;
+        	line-height: 0;
+        	padding: 50px 0;
+        	margin: 60px auto;
+        	background-color: black;
+  		color: white;
+             	border-radius: 50%;
+        	cursor:grabbing;
+            transition: width 2s, height 2s, transform 2s;
+           animation: bounce; 
+animation-duration: 2s; 
+              
+
+}
+
+.rotate {
+    width: 110px;
+        	line-height: 0;
+        	padding: 50px 0;
+        	margin: 60px auto;
+        	background-color: black;
+  		color: white;
+             	border-radius: 50%;
+        	cursor: pointer;`
+
+
+}
+
+.translatex{
+    width: 110px;
+        	line-height: 0;
+        	padding: 50px 0;
+        	margin: 60px auto;
+        	background-color: black;
+  		color: white;
+             	border-radius: 50%;
+        	cursor: pointer;`
+
+}
+
+.skew{
+    width: 110px;
+        	line-height: 0;
+        	padding: 50px 0;
+        	margin: 60px auto;
+        	background-color:black;
+  		color: white;
+             	border-radius: 50%;
+        	cursor: pointer;`
+
+}
+
+.translatey{
+    width: 110px;
+        	line-height: 0;
+        	padding: 50px 0;
+        	margin: 60px auto;
+        	background-color: black;
+  		color: white;
+             	border-radius: 50%;
+        	cursor: pointer;`
+
+}
+
+.scale{
+    width: 110px;
+        	line-height: 0;
+        	padding: 50px 0;
+        	margin: 60px auto;
+        	background-color:black;
+  		color: white;
+             	border-radius: 50%;
+        	cursor: pointer;`
+
+}
+
+.threed{
+    width: 110px;
+        	line-height: 0;
+        	padding: 50px 0;
+        	margin: 60px auto;
+        	background-color: black;
+  		color: white;
+             	border-radius: 50%;
+        	cursor: pointer;`
+
+}
+
+.flexone{
+    display: flex;
+    flex-direction: row;
+    background-color: dodgerblue;
+}
+
+.flextwo{
+    display: flex;
+    flex-direction: row;
+    background-color: mediumvioletred;
+}
+
