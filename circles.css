@@ -1,91 +1,68 @@
-.hover {
-    width: 110px;
+a{
+	margin: 7px;
+}
+
+.hover, .rotate, .skew, .translatex, .translatey, .scale, .threed {
+			width: 110px;
         	line-height: 0;
         	padding: 50px 0;
         	margin: 60px auto;
         	background-color: black;
   		color: white;
              	border-radius: 50%;
-        	cursor:grabbing;
-            transition: width 2s, height 2s, transform 2s;
-           animation: bounce; 
-animation-duration: 2s; 
-              
+        	cursor: pointer;
+			transition-property: color, background-color, transform;
+			transition-duration: 2s;
+			transition-delay: 0s;
+			transition-timing-function: ease-out;
+}
+
+.hover:hover {
+color: black;
+background-color:mediumvioletred;
+}
+
+.rotate:hover {
+color: black;
+background-color: mediumvioletred;
+transform: rotate(360deg);
+}
+
+.skew:hover {
+color: black;
+background-color: dodgerblue;
+transform: skew(40deg);
 
 }
 
-.rotate {
-    width: 110px;
-        	line-height: 0;
-        	padding: 50px 0;
-        	margin: 60px auto;
-        	background-color: black;
-  		color: white;
-             	border-radius: 50%;
-        	cursor: pointer;`
-
-
+.translatex:hover {
+	color: black;
+background-color: mediumvioletred;
+transform: translateX(-40px)
 }
 
-.translatex{
-    width: 110px;
-        	line-height: 0;
-        	padding: 50px 0;
-        	margin: 60px auto;
-        	background-color: black;
-  		color: white;
-             	border-radius: 50%;
-        	cursor: pointer;`
-
+.translatey:hover {
+color: black;
+background-color: dodgerblue;
+transform: translateY(50px)
 }
 
-.skew{
-    width: 110px;
-        	line-height: 0;
-        	padding: 50px 0;
-        	margin: 60px auto;
-        	background-color:black;
-  		color: white;
-             	border-radius: 50%;
-        	cursor: pointer;`
-
+.scale:hover {
+	color: black;
+background-color: dodgerblue;
+transform: scale(2)
 }
 
-.translatey{
-    width: 110px;
-        	line-height: 0;
-        	padding: 50px 0;
-        	margin: 60px auto;
-        	background-color: black;
-  		color: white;
-             	border-radius: 50%;
-        	cursor: pointer;`
 
+.threed:hover {
+	color: black;
+background-color: mediumvioletred;
+transform:rotate3d(2, 2, 2, 360deg)
 }
 
-.scale{
-    width: 110px;
-        	line-height: 0;
-        	padding: 50px 0;
-        	margin: 60px auto;
-        	background-color:black;
-  		color: white;
-             	border-radius: 50%;
-        	cursor: pointer;`
 
-}
 
-.threed{
-    width: 110px;
-        	line-height: 0;
-        	padding: 50px 0;
-        	margin: 60px auto;
-        	background-color: black;
-  		color: white;
-             	border-radius: 50%;
-        	cursor: pointer;`
 
-}
 
 .flexone{
     display: flex;
