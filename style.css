@@ -1,0 +1,90 @@
+*{
+    font-family: playfair display;
+    transition-property: all;
+	transition-duration: 1s;
+	transition-delay: 0s;
+	transition-timing-function: ease-out;
+  
+}
+
+a:hover{
+    color: white;
+}
+
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+}
+
+.container1, .container2, .container3{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+}
+
+.flexbox-item {
+    height: 350px;
+    width: 520px;
+    border: double 15px lightcoral;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+.flexone{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flextwo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.flextwo img:hover{
+   transform: skew(40deg)
+}
+
+.flexthree{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flexfour{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexfour img:hover{
+    transform: rotate(360deg)
+}
+
+.flexfive{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flexsix{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexsix img:hover{
+    transform: scale(2);
+}
