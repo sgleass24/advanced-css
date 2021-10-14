@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>selectors</title>
+</head>
+
+<style>
+    .section1 h1{
+        color: darkmagenta;
+    }
+
+    h1{
+        color: darkolivegreen;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    .section2 h1{
+        color: dodgerblue;
+
+    }
+
+    .section2 p{
+        font-size:20px;
+    }
+
+    .section2 ul li {
+        color: salmon;
+        font-size: 30px;
+        list-style-type: none;
+        transition-property: all;
+        transition-duration: 5s;
+        
+    }
+
+    .section2 ul li:hover{
+        color: maroon;
+        transform: scale(2);
+    }
+
+    .section2 ul .Spanish{
+        color: mediumaquamarine;
+    }
+
+    .section3 h1{
+        color: mediumorchid;
+        font-size: 50px;
+    }
+
+    .section3 p, ul{
+        color: orange;
+    
+    }
+
+    p::first-letter{
+        color: lime;
+        font-size: 50px;
+    }
+
+    p::selection{
+        color: red;
+        background-color: yellow;
+    }
+
+
+
+</style>
+
+<body>
+    <header>
+        <a nav="nav" href="circles.html">Circles</a>
+        <a nav="nav" href="animation.html">Animations</a>
+        <a nav="nav" href="index.html">How to</a>
+        <a nav="nav" href="dropdown.html">Dropdown</a>
+        <a nav="nav" href="selectors.html">Selectors</a>
+    </header>
+    
+    <div class="section1">
+        <h1> Hello World!</h1>
+        <p>This is the English Language</p>
+    </div>
+    <h1>Hola Mundo!</h1>
+    <p>This is the Spanish Language.</p>
+    <!--make style changes 5 to this div's <p>
+            include a transform-->
+    <!--make style changes to the <li> in this div
+                make seperate style changes to the 
+            'spanish' class <li>-->
+    <div class="section2">
+        <h1>Bonjour le Monde!</h1>
+        <p>This is the French Language.</p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li class="Spanish">Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+    <!--make style changes to this div's <p> tag and
+        <ul> tag. Include an animation on the <li>-->
+    <div class="section3">
+        <h1>مرحبا بالعالم</h1>
+        <p>This is the Arabic Language. </p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li> Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+
+    <!-- <h3 class="animate__animated animate__bounce"> Watch Me Change</h3> -->
+</body>
+
+</html>

@@ -37,7 +37,7 @@ a{
     height: 250px;
 }
 
-img{
+/* img{
     transition-property: all;
 }
 
@@ -52,5 +52,29 @@ img:hover{
 @keyframes left-to-right {
     500%{
         transform: translateX(100%);
+    }
+} */
+
+img{
+    position: absolute;
+    width: 200px;
+    bottom: 15px;
+    animation-name: mycar;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    
+}
+
+@keyframes mycar{
+    from{ left: 0px
+
+    }
+    to{ right;: 1600px
+
     }
 }
