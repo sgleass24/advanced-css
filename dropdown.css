@@ -3,13 +3,13 @@
     ul li{
         float: left;
         list-style: none;
-        background-color: lavender;
+        
         opacity: .5;
 
     }
 
     ul li a{
-        border: black solid 2px;
+        border: black solid 4px;
         
         margin-right: 5px;
         width: 120px;
@@ -22,8 +22,8 @@ text-align: center;
     }
 
 ul li a:hover{
-    background-color: silver;
-    color: skyblue;
+    background-color:silver;
+    color: lightseagreen;
     font-size: 25px;
 }
 
